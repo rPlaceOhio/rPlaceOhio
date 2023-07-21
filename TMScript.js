@@ -10,7 +10,7 @@
 // ==/UserScript==
 
 
-const overlay = "https://github.com/rPlaceOhio/rPlaceOhio/blob/main/images/rPlaceOhio%20BlockO%20Overlay.png?raw=true" + Math.floor(Date.now() / 10000);
+const overlay = "https://github.com/rPlaceOhio/rPlaceOhio/blob/main/images/overlay.png?raw=true" + Math.floor(Date.now() / 10000);
 console.log("[PLACE] Placing overlay for Steins;Place:", overlay);
 
 if (window.top !== window.self) {
