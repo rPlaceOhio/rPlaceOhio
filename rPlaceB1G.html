@@ -43,7 +43,7 @@
     <div id = "overlay" class = "overlay">
         <button onclick="hideOverlay()">X Close</button>
         <p>
-            	 <b>OVERLAY INSTRUCTIONS</b>
+            <b>OVERLAY INSTRUCTIONS</b>
             	<br><br>
 		Install Tampermonkey browser extension: 
 		<br><br>
@@ -62,13 +62,14 @@
     </div>
 
     <script>
-        const X_PIXELS=15
-        const Y_PIXELS=15
+        const X_PIXELS=20
+        const Y_PIXELS=20
         const X_OFFSET=400
         const Y_OFFSET=100
 
-        const X_IN_PLACE=-270
-        const Y_IN_PLACE=-103
+        const X_IN_PLACE=79
+        const Y_IN_PLACE=105
+	
 
         function getMousePos(canvas, evt) {
             const rect = canvas.getBoundingClientRect();
