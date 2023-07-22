@@ -16,7 +16,7 @@ console.log("[PLACE] Placing overlay for Steins;Place:", overlay);
 if (window.top !== window.self) {
     const overlay_img = document.createElement("img");
     overlay_img.src = overlay;
-    overlay_img.style = "position: absolute;left: 0;top: 0;image-rendering: pixelated;width: 1500px;height: 1000px;";
+    overlay_img.style = "position: absolute;left: 0;top: 0;image-rendering: pixelated;width: 2000px;height: 1000px;";
 
     window.addEventListener('load', () => {
         const canvas = document.getElementsByTagName('garlic-bread-embed')[0]
